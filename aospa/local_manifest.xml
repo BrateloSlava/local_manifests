@@ -1,1 +1,7 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="vadimkara/android_device_leeco_zl0" path="device/leeco/zl0" remote="github" revision="nougat-mr2" />
+  <project name="vadimkara/android_kernel_leeco_msm8996" path="kernel/leeco/msm8996" remote="github" revision="nougat-mr2" />
+  <project name="vadimkara/android_device_leeco_msm8996-common" path="device/samsung/sm8996-common" remote="github" revision="cm-14.1" />
+  <project name="vadimkara/proprietary_vendor_leeco" path="vendor/leeco/zl0" remote="github" revision="nougat-mr2" />
+</manifest>
