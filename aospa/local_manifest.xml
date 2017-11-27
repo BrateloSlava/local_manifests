@@ -3,6 +3,9 @@
   <project name="vadimkara/android_device_leeco_zl0" path="device/leeco/zl0" remote="github" revision="nougat-mr2" />
   <project name="vadimkara/android_kernel_leeco_msm8996" path="kernel/leeco/msm8996" remote="github" revision="nougat-mr2" />
   <project name="vadimkara/proprietary_vendor_leeco_zl0" path="vendor/leeco/zl0" remote="github" revision="nougat-mr2" />
-  <project name="vadimkara/android_vendor_pa " path="vendor/pa" remote="github" revision="nougat-mr2" />
+  <remove-project name="AOSPA/android_vendor_pa" />
+  <project name="vadimkara/android_vendor_pa" path="vendor/pa" remote="github" revision="nougat-mr2" >
+    <copyfile src="build.sh" dest="rom-build.sh" />
+  </project>
   <project name="omnirom/android_bootable_recovery" path="bootable/recovery-twrp" remote="github" revision="android-7.1" />
 </manifest>
