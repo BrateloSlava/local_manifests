@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="vadimkara/android_device_leeco_zl0" path="device/leeco/zl0" remote="github" revision="nougat-mr2" />
-  <project name="vadimkara/android_kernel_leeco_msm8996" path="kernel/leeco/msm8996" remote="github" revision="nougat-mr2" />
-  <project name="vadimkara/proprietary_vendor_leeco_zl0" path="vendor/leeco/zl0" remote="github" revision="nougat-mr2" />
+  <project name="vadimkara/android_device_leeco_zl0_pa" path="device/leeco/zl0" remote="github" revision="nougat-mr2" />
+  <project name="vadimkara/android_kernel_leeco_msm8996_pa" path="kernel/leeco/msm8996" remote="github" revision="nougat-mr2" />
+  <project name="vadimkara/proprietary_vendor_leeco_zl0_pa" path="vendor/leeco/zl0" remote="github" revision="nougat-mr2" />
   <remove-project name="AOSPA/android_vendor_pa" />
   <project name="vadimkara/android_vendor_pa" path="vendor/pa" remote="github" revision="nougat-mr2" >
     <copyfile src="build.sh" dest="rom-build.sh" />
