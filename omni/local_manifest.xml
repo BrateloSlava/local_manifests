@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote  name="vadimkara"
+		fetch="https://github.com/vadimkara" />
+		
+	<project name="android_device_leeco_zl0_omni" path="device/leeco/le_zl0" remote="vadimkara" />
+	<project name="proprietary_vendor_leeco_omni" path="vendor/leeco" remote="vadimkara" />
+	<project name="android_packages_apps_ParanoidCamera" path="packages/apps/ParanoidCamera" remote="vadimkara" />
+</manifest>
